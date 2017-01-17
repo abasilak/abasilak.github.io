@@ -1094,16 +1094,37 @@ problems, with a focus on interactive applications and dynamic environments.
 <img src="img/source_32.png" alt="shader source code" title="shader source code">
 </a>
 <a href="downloads/shaders/shaders.bib">
-<img src="img/bibtex_32.png" alt="bibtex" title="bibtex">
+<img src="img/bibtex_32.png" alt="bibtex" title="all shaders">
 </a>
 </p>
 </div>
         </div>
+        <div class="row">
         <div class="col-xs-2">
         <img src="downloads/shaders/teaser.jpg" alt="..." class="media-object img-rounded center-block" title="teaser">
         </div>
 <div class="col-xs-10 text-justify">
-A comprehensive shader source code boundle for efficiently solving the visibility determination problem in screen space, a fundamental task for many image-based and frame buffer techniques, including complex rendering effects like order-independent-transparency, CSG rendering and collision detection. This extensive collection includes the most widely-used multi-fragment rendering solutions such as  the depth peeling variants as well as k-buffer and A-buffer alternatives. The source code is mainly written using the OpenGL 4.4 API, except from the parts that do not require GPU-accelerated atomic memory operations (OpenGL 3.3). If you use this material for any kind of test or rendering, please acknowledge the creator by citing the corresponding paper(s).
+A comprehensive shader source code boundle for efficiently solving the visibility determination problem in screen space, a fundamental task for many image-based and frame buffer techniques, including complex rendering effects like order-independent-transparency, CSG rendering and collision detection. This extensive collection includes the most widely-used multi-fragment rendering solutions such as  the depth peeling variants as well as k-buffer and A-buffer alternatives. The source code is mainly written using the OpenGL 4.4 API, except from the parts that do not require GPU-accelerated atomic memory operations (OpenGL 3.3). If you use this material for any kind of test or rendering, please acknowledge the creator by citing the corresponding paper(s). <br>
+    <span class="label label-warning">depth peeling</span>
+      <span class="label label-success"><a href="#tvcg2013">TVCG2013</a></span>              
+      <span class="label label-success"><a href="#sig2011">SIG2011</a></span>
+    <a href="downloads/shaders/depth_peeling.zip"><img src="img/source_32.png" alt="shader source code" title="depth peeling shaders"></a> <br>
+    <span class="label label-warning">k-buffer</span>
+      <span class="label label-success"><a href="#tvcg2015">TVCG2015</a></span>
+      <span class="label label-success"><a href="#eg2015">EG2015</a></span>
+      <span class="label label-success"><a href="#i3d2015">I3D2015</a></span>
+      <span class="label label-success"><a href="#i3d2014">I3D2014</a></span>
+      <span class="label label-success"><a href="#eg2012">EG2012</a></span>
+    <a href="downloads/shaders/k_buffer.zip"><img src="img/source_32.png" alt="shader source code" title="k-buffer shaders"></a> <br>
+    <span class="label label-warning">A-buffer</span>
+      <span class="label label-success"><a href="#i3d2016">I3D2016</a></span>
+      <span class="label label-success"><a href="#tvcg2013">TVCG2013</a></span>              
+      <span class="label label-success"><a href="#eg2012">EG2012</a></span>
+    <a href="downloads/shaders/a_buffer.zip"><img src="img/source_32.png" alt="shader source code" title="a-buffer shaders"></a>  <br>
+        <span class="label label-warning">OIT</span> <span class="label label-warning">CSG</span> <span class="label label-warning">collision detection</span>
+      <span class="label label-success"><a href="#cad2013">CAD2013</a></span>
+    <a href="downloads/shaders/csg_cd.zip"><img src="img/source_32.png" alt="shader source code" title="csg-cd shaders"></a>
+</div>
 </div>
 </div>
 </div>
@@ -1120,7 +1141,7 @@ A comprehensive shader source code boundle for efficiently solving the visibilit
           <div class="col-xs-8">
           <h4><span class="label label-danger">A. A. Vasilakis</span> 
               <span class="label label-success"><a href="#cgi2016">CGI2016</a></span>
-              <span class="label label-success"><a href="#cad2013">CAD2013</a></span>              
+              <span class="label label-success"><a href="#cad2013">CAD2013</a></span>
           </h4>              
           <h4>
                 <span class="label label-info">Tablecloth</span>
@@ -1162,14 +1183,17 @@ A comprehensive shader source code boundle for efficiently solving the visibilit
 <div class="col-xs-10 text-justify">
     Tablecloth animation that realistically falls from a table is created using <a href="https://www.blender.org">Blender's cloth simulator</a>. <br>
     <span class="label label-info">4225 Vertices</span>
-    <span class="label label-success">250 Frames</span>
+    <span class="label label-warning">250 Frames</span>
     <span class="label label-danger">31 MB</span>
 <a href="https://app.box.com/s/0utvpxtzmfqu66tg2ft4ui8cngp1z9do">
 <img src="img/bunny_32.png" alt="3d mesh animation" title="download">
 </a>
 <a href="downloads/models/tablecloth/video.mp4">
 <img src="img/video_26.png" alt="video" title="animation video">
-</a>    
+</a>
+    <br>
+    <span class="label label-success"><a href="#cgi2016">CGI2016</a></span>    
+    
 </div>
 </div>
 <hr>    
@@ -1180,11 +1204,13 @@ A comprehensive shader source code boundle for efficiently solving the visibilit
 <div class="col-xs-10 text-justify">
     Skirt deformation is created using <a href="https://www.blender.org">Blender's cloth simulator</a>. <br>
     <span class="label label-info">5095 Vertices</span>
-    <span class="label label-success">360 Frames</span>
+    <span class="label label-warning">360 Frames</span>
     <span class="label label-danger">31 MB</span>
 <a href="https://app.box.com/s/15o0ewhdt6l45mx6rg1et3c3413ewz4v">
 <img src="img/bunny_32.png" alt="3d mesh animation" title="download">
 </a>
+    <br>
+    <span class="label label-success"><a href="#cgi2016">CGI2016</a></span>    
 </div>
 </div>
 <hr>    
@@ -1195,7 +1221,7 @@ A comprehensive shader source code boundle for efficiently solving the visibilit
 <div class="col-xs-10 text-justify">
     Flag animation that realistically blow in the wind is created using <a href="https://www.blender.org">Blender's cloth simulator</a>. <br>
     <span class="label label-info">2704 Vertices</span>
-    <span class="label label-success">1000 Frames</span>
+    <span class="label label-warning">1000 Frames</span>
     <span class="label label-danger">45 MB</span>
 <a href="https://app.box.com/s/5rhgvlun0jz41kphjy76gzgllq1mpizk">
 <img src="img/bunny_32.png" alt="3d mesh animation" title="download">
@@ -1213,7 +1239,7 @@ A comprehensive shader source code boundle for efficiently solving the visibilit
 <div class="col-xs-10 text-justify">
     Waves animation that realistically interact with a moving ball is created using <a href="https://www.blender.org">Blender's ocean simulator</a>. <br>
     <span class="label label-info">4225 Vertices</span>
-    <span class="label label-success">1250 Frames</span>
+    <span class="label label-warning">1250 Frames</span>
     <span class="label label-danger">131 MB</span>    
     <a href=""><img src="img/bunny_32.png" alt="3d mesh animation" title="download"></a>
 <a href="downloads/models/ocean/video.mp4">
@@ -1230,7 +1256,7 @@ A comprehensive shader source code boundle for efficiently solving the visibilit
 A point cloud animation that consists of three disjointed subsequences. Each one is generated by moving (morphing) from one number into another with the aim of forming the word
 ''2017''. Each number represents a keyed particle system that randomly place points inside its volume. This animation was created via <a href="https://www.blender.org">Blender Modeling Software</a>.  <br>
     <span class="label label-info">5000 Vertices</span>
-    <span class="label label-success">600 Frames</span>
+    <span class="label label-warning">600 Frames</span>
     <span class="label label-danger">30 MB</span>    
 <a href="https://app.box.com/s/1qh2ig8ztd4tfrlyod5jdi6zcgtvelvp">
 <img src="img/bunny_32.png" alt="3d mesh animation" title="download">
@@ -1246,13 +1272,15 @@ A point cloud animation that consists of three disjointed subsequences. Each one
 <img src="downloads/models/self-intersecting-object/teaser.png" alt="..." class="media-object img-rounded center-block" title="teaser">
 </div>
 <div class="col-xs-10 text-justify">
-    A highly complex animation genereted after applying a number of concurrent local deformation operations (free-form deformations in conjunction with Laplacian smoothing) on an orientalbe self-crossing manifold. <br>
+    A highly complex animation genereted after applying a number of concurrent local deformation operations (free-form deformations in conjunction with Laplacian smoothing) on an orientable self-crossing manifold.<br>
     <span class="label label-info">7478 Vertices</span>
-    <span class="label label-success">500 Frames</span>
+    <span class="label label-warning">500 Frames</span>
     <span class="label label-danger">101 MB</span>
 <a href="">
 <img src="img/bunny_32.png" alt="3d mesh animation" title="download">
 </a>
+    <br>
+    <span class="label label-success"><a href="#cad2013">CAD2013</a></span>    
 </div>
 </div>
 <hr>    
