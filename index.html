@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="andreas,vasilakis,phd,postdoc,fudos,uoi,aueb,abasilak,ioannina,athens,corfu,gepap,certh,iti,moustakas,scagja" />
+    <meta name="keywords" content="andreas,vasilakis,phd,postdoc,fudos,uoi,aueb,abasilak,ioannina,athens,corfu,gepap,certh,iti,moustakas,scagja,multi-fragment,multifragment,rendering,depth,peeling,a-buffer,k-buffer,s-buffer,csg" />
     <meta name="description" content="Andreas A. Vasilakis personal web site" />
     <title>abasilak personal site</title>
     <!-- Bootstrap -->
@@ -62,8 +62,9 @@
                 </table>            
                 <hr>
                 <h4 class="text-center"> 
-                    <span class="label label-primary"><a href="#info">Info</a></span> 
-                    <span class="label label-danger"><a href="#news">News</a></span>
+                    <span class="label label-default"><a href="#info">Info</a></span> 
+                    <span class="label label-primary"><a href="#news">News</a></span>
+                    <span class="label label-danger"><a href="#research">Research</a></span>
                     <span class="label label-success"><a href="#publications">Publications</a></span>
                     <span class="label label-warning"><a href="#shaders">Source Code</a></span>
                     <span class="label label-info"><a href="#meshes">Meshes</a></span>
@@ -85,7 +86,7 @@
             <div id="news" class="col-sm-12 text-justify">
                 <h3>Latest News</h3>
                 <div class="col-sm-6">
-                    <h4><span class="label label-danger">PROJECTS</span></h4>
+                    <h4><span class="label label-info">PROJECTS</span></h4>
                     <dl>
                         <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[12.12.16]</strong> FRAILSAFE 2st plenary meeting @Genova. </dd>
                         <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[01.06.16]</strong> FRAILSAFE 1st plenary meeting @Thessaloniki. </dd>
@@ -106,7 +107,7 @@
                 <hr>
                 <h3>Research Interests</h3>
                 <h4>
-                    <p><span class="label label-danger">Interactive Rendering</span> <span class="label label-primary">Multifragment Rendering</span>
+                    <p><span class="label label-info">Interactive Rendering</span> <span class="label label-primary">Multifragment Rendering</span>
                     </p>
                     <p>
                         <span class="label label-warning">Global Illumination</span> <span class="label label-success"> <a href="#hpg2016">HPG2016</a></span> <span class="label label-success"><a href="#i3d2016">I3D2016</a></span>
@@ -127,7 +128,7 @@
                     </p>
                     <br>
                     <p>
-                    <span class="label label-danger">Mesh Animation</span> <span class="label label-primary">Geometry Processing</span>
+                    <span class="label label-info">Mesh Animation</span> <span class="label label-primary">Geometry Processing</span>
                     </p>
                     <p>
                         <span class="label label-warning">Skinning</span>
@@ -142,7 +143,7 @@
                     </p>
                     <br>
                     <p>
-                    <span class="label label-danger">Augmented Reality</span> <span class="label label-primary">Mobile Graphics</span>
+                    <span class="label label-info">Augmented Reality</span> <span class="label label-primary">Mobile Graphics</span>
                     </p>
                     <p>
                         <span class="label label-warning">Annotation</span>
@@ -228,18 +229,24 @@
             <div id="selected.publications" class="col-md-4">
                 <h3>Selected Publications</h3>
                 <hr>
-                <dl> <dt><a href="#hpg2016">DIRT: Deferred Image-based Ray Tracing</a></dt>
+                <dl>
+                    <dt>&starf; <a href="#hpg2016">DIRT: Deferred Image-based Ray Tracing</a></dt>
                     <dd> Vardis, Vasilakis and Papaioannou, <em> Proc. of HPG 2016</em>.</dd>
-                    <dd>&nbsp; </dd> <dt><a href="#i3d2016">A Multiview and Multilayer Approach for Interactive Ray Tracing</a></dt>
+                    <dd>&nbsp; </dd>
+                    <dt>&starf; <a href="#i3d2016">A Multiview and Multilayer Approach for Interactive Ray Tracing</a></dt>
                     <dd> Vardis, Vasilakis and Papaioannou, <em> Proc. of I3D 2016</em>.</dd>
-                    <dd>&nbsp; </dd> <dt><a href="#cgi2016">PPS: Pose-to-Pose Skinning of Animated Meshes</a></dt>
+                    <dd>&nbsp; </dd>
+                    <dt>&starf; <a href="#cgi2016">PPS: Pose-to-Pose Skinning of Animated Meshes</a></dt>
                     <dd> Vasilakis, Fudos and Antonopoulos, <em> Proc. of CGI 2016</em>.</dd>
-                    <dd>&nbsp; </dd> <dt><a href="#i3d2014">k+-buffer: Fragment Synchronized k-buffer</a></dt>
-                    <dd> Vasilakis and Fudos, <em> Proc. of I3D 2014</em>. </dd>
+                    <dd>&nbsp; </dd>
+                    <dt>&starf; <a href="#i3d2014">k+-buffer: Fragment Synchronized k-buffer</a></dt>
+                    <dd> Vasilakis and Fudos, <em> Proc. of I3D 2014</em>.  </dd>
                     <dd class="text-danger">*one of the 4 best paper awards</dd>
-                    <dd>&nbsp; </dd> <dt><a href="#cgf2014">Pose Partitioning for Multi-resolution Segmentation of Arbitrary Mesh Animations</a></dt>
+                    <dd>&nbsp; </dd>
+                    <dt>&starf; <a href="#cgf2014">Pose Partitioning for Multi-resolution Segmentation of Arbitrary Mesh Animations</a></dt>
                     <dd> Vasilakis and Fudos, <em> CGF (Proc. of Eurographics 2014)</em>. </dd>
-                    <dd>&nbsp; </dd> <dt><a href="#tvcg2013">Depth-fighting Aware Methods for Multifragment Rendering</a></dt>
+                    <dd>&nbsp; </dd>
+                    <dt>&starf; <a href="#tvcg2013">Depth-fighting Aware Methods for Multifragment Rendering</a></dt>
                     <dd> Vasilakis and Fudos, <em> IEEE TVCG 2013</em>.</dd>
                     <dd class="text-danger">*also presented at I3D 2013</dd>
                 </dl>
@@ -1208,5 +1215,4 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
