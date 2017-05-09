@@ -1142,6 +1142,54 @@ img {
   border-radius: 6px;
 }
 
+#teaser {
+	width:100%;
+	size:inherit;
+	margin: 0; 
+	padding: 0; 
+	border: 1;
+	margin-top:-30px;
+	}        
+
+#teaser figure{
+	margin:0;
+	padding:0;
+	size:inherit;
+	height:35em;
+	text-align:center; 
+    margin-top: 0;
+    margin-bottom: -35em;
+    margin-left: 0;
+    margin-right: 0;
+	border-style:none;
+	border-color: #000;
+	border-width:0;
+	border:0;
+}
+
+#teaser figure.hide
+{
+	opacity: 0;
+	transition: 1s opacity;
+}
+
+#teaser figure.show{
+	opacity: 1;
+	transition: 1s opacity;
+}
+
+.slide {
+	width:100%;
+	size:inherit;
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+	text-align:center; 
+	border-style:none;
+	border-color: #000;
+	border-width:1px;
+	}
+
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
