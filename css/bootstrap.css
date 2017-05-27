@@ -87,6 +87,9 @@ sub {
 img {
   border: 0;
 }
+.shadow {
+  box-shadow: 1px 4px 5px -2px #999;
+}
 svg:not(:root) {
   overflow: hidden;
 }
