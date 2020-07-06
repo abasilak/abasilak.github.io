@@ -108,7 +108,7 @@
                 <div class="col-sm-5">
                     <h4><span class="label label-primary">Papers</span></h4>
                     <dl>
-                        <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[04.29]</strong> Full Paper (conditionally) accepted @<a href="#vc2020">CGI2020</a> </dd>
+                        <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[04.29]</strong> Full Paper accepted @<a href="#vc2020">CGI2020</a> </dd>
                         <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[03.20]</strong> Education Paper accepted @<a href="#eg2020edu">EG2020</a> </dd>
                         <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[02.20]</strong> STAR accepted @<a href="#cgf2020star">EG2020</a> </dd>
                         <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[02.20]</strong> Full Paper accepted @<a href="#cgf2020fp">EG2020</a></dd>
@@ -132,6 +132,48 @@
         <div id="journals">
             <h4><b>Journals/Book Chapters</b></h4>
             <hr>
+            <div id="vc2020" class="row col-xs-12">
+                <div class="row text-center">
+                    <div class="col-sm-7">
+                        <h4>
+                        <span class="label label-default">I. Evangelou</span> 
+                        <span class="label label-default">G. Papaioannou</span> 
+                        <span class="label label-default">K. Vardis</span> 
+                        <span class="label label-danger">A. A. Vasilakis</span>
+                        </h4>
+                        <h4><span class="label label-info">Rasterization-based Progressive Photon Mapping</span></h4>
+                        <h4>
+                            <span class="label label-warning">photon mapping</span>
+                            <span class="label label-warning">rasterization</span>
+                            <span class="label label-warning">ray tracing</span>
+                        </h4>
+                    </div>
+                    <div class="col-sm-5">
+                        <h4><span class="label label-success">VC (CGI'20), vol. x , no. x, pp. xxx-xxx</span></h4>
+                        <h5><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 2020</h5>
+                        <h4>
+                        <a href="papers/journals/vc2020/paper.pdf">         <img src="img/pdf_32.png"  alt="author-prepared version" title="author-prepared version"> </a>
+                        <a href="https://link.springer.com/article/xxx">    <img src="img/springer_32.png" alt="visual computer" title="visual computer link"> </a>
+                        </h4> </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"> <img src="papers/journals/vc2020/teaser.png" alt="..." class="shadow img-rounded center-block" title="eg2020star teaser"> </div>
+                    <div class="col-sm-9 text-justify">
+                        <p> Ray tracing on the GPU has been synergistically operating alongside rasterization in interactive rendering engines for some time now, in order to
+                            accurately capture certain illumination effects. In the same spirit, in this paper, we propose an implementation of Progressive Photon Mapping entirely on the
+                            rasterization pipeline, which is agnostic to the specific GPU architecture, in order to synthesise images at interactive rates. While any GPU ray tracing architecture
+                            can be used for photon mapping, performing ray traversal in image space minimises acceleration data structure construction time and supports arbitrarily complex
+                            and fully dynamic geometry. Furthermore, this strategy maximises data structure reuse by encompassing rasterization, ray tracing and photon gathering tasks in a 
+                            single data structure. Both eye and light paths of arbitrary depth are traced on multi-view deep G-buffers and photon flux is gathered by a properly adapted multi-view
+                            photon splatting. In contrast to previous methods exploiting rasterization to some extent, due to our novel indirect photon splatting approach, any event combination
+                            present in photon mapping is captured. We evaluate our method using typical test scenes and scenarios for photon mapping methods and show how our approach outperforms 
+                            typical GPU-based progressive photon mapping.
+                        </p>
+                    </div>
+                    <div class="col-xs-12">
+                        <hr> </div>
+                </div>
+            </div>            
             <div id="cgf2020star" class="row col-xs-12">
                 <div class="row text-center">
                     <div class="col-sm-7">
