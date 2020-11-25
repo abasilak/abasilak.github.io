@@ -44,7 +44,7 @@
             <div class="col-sm-9">
                 <h1 class="text-center">Andreas A. Vasilakis</h1>
                 <h4 class="text-center">Computer Graphics R&amp;D / Adjunct Professor</h4>
-                <h4 class="text-center">Athens University of Economics and Business, Greece</h4>
+                <h4 class="text-center">Phasmatic / Athens University of Economics and Business, Greece</h4>
                 <table style="width:100%" class="text-center">
                     <tr>
                         <td><img src="img/email_16.png" alt=""><em><a href="mailto:andreas.alex.vasilakis@gmail.com" target="_top"> andreas.alex.vasilakis[at]gmail.com</a></em></td>
@@ -90,9 +90,10 @@
                 <div class="col-sm-7">
                     <h4><span class="label label-warning">Projects</span></h4>
                     <dl>
+                    <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[11.20]</strong> <a href="http://www.phasmatic.com">Phasmatic.com</a>, Photorealistic 3D Graphics on the Web</dd>
                     <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[03.20]</strong> LumiBricks: Modular Illumination Transfer for Photorealistic Visualization on Commodity Hardware, NSRF </dd>
                     <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[12.19]</strong> Proof-of-concept Implementation of Coarse Shading Technologies for the ARM MALI-G76 BIFROST Architecture, Huawei </dd>
-                    <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[11.19]</strong> <a href="http://www.rayground.com">Rayground.com</a>, an online tool for rapid prototyping of ray tracing algorithms, AUEB </dd>
+                    <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[11.19]</strong> <a href="https://www.rayground.com">Rayground.com</a>, an online tool for rapid prototyping of ray tracing algorithms, AUEB </dd>
                     <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[06.19]</strong> Big data visualization for transaction data, AUEB </dd>
                     </dl>
                     <h4><span class="label label-success">Collaborations</span></h4>
@@ -110,6 +111,7 @@
                 <div class="col-sm-5">
                     <h4><span class="label label-primary">Papers</span></h4>
                     <dl>
+                        <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[11.20]</strong> Full Paper conditionally accepted @<a href="#jcgt2020">JCGT2020</a> </dd>
                         <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[04.20]</strong> Full Paper accepted @<a href="#vc2020">CGI2020</a> </dd>
                         <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[03.20]</strong> Education Paper accepted @<a href="#eg2020edu">EG2020</a> </dd>
                         <dd> <span class="glyphicon glyphicon-calendar"></span> <strong>[02.20]</strong> STAR accepted @<a href="#cgf2020star">EG2020</a> </dd>
@@ -135,6 +137,50 @@
         <div id="journals">
             <h4><b>Journals/Book Chapters</b></h4>
             <hr>
+            <div id="jcgt2020" class="row col-xs-12">
+                <div class="row text-center">
+                    <div class="col-sm-7">
+                        <h4>
+                        <span class="label label-default">I. Evangelou</span> 
+                        <span class="label label-default">G. Papaioannou</span> 
+                        <span class="label label-default">K. Vardis</span> 
+                        <span class="label label-danger">A. A. Vasilakis</span>
+                        </h4>
+                        <h4><span class="label label-info">Fast Radius Search Exploiting Ray Tracing Frameworks</span></h4>
+                        <h4>
+                            <span class="label label-warning">ray tracing</span>
+                            <span class="label label-warning">photon mapping</span>
+                            <span class="label label-warning">point cloud registration</span>
+                            <span class="label label-warning">k-nearest neighbors</span>
+                        </h4>
+                    </div>
+                    <div class="col-sm-5">
+                        <h4><span class="label label-success">JCGT</span></h4>
+                        <h5><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>November 2020</h5>
+                        <h4>
+                        <!--
+                        <a href="">         <img src="img/pdf_32.png"  alt="author-prepared version" title="author-prepared version"> </a>
+                        <a href="">         <img src="img/jcgt_32.png" alt="jcgt" title="jcgt link"> </a>
+                        -->
+                        </h4> </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"> <img src="papers/journals/jcgt2020/teaser.png" alt="..." class="shadow img-rounded center-block" title="jcgt2020 teaser"> </div>
+                    <div class="col-sm-9 text-justify">
+                        <p> Employing spatial queries to infer information from the neighborhood of a set of points is a common process in rendering and geometry processing algorithms.
+                            Traditionally, this is accomplished using radius and k-nearest neighbors search operations that utilize kd-trees and other specialized spatial data structures,
+                            which fall short of delivering high performance construction and traversal timings simultaneously. Recently, advances in ray tracing performance, with respect
+                            to both acceleration data structure construction and ray traversal times, have resulted in a wide adoption of the ray tracing paradigm for graphics-related tasks
+                            that spread beyond typical image synthesis. In this work, we propose an alternative formulation of the radius search operation that maps the problem to the ray
+                            tracing paradigm, in order to take advantage of the available and widely adopted solutions for hardware-accelerated ray tracing and significantly boost the performance
+                            of the spatial queries. We demonstrate the performance superiority of our method when compared to traditional spatial search methods, especially on dynamically updated
+                            sample sets, using two representative applications: geometry processing point-wise operations on scanned point clouds and global illumination via progressive photon mapping.
+                        </p>
+                    </div>
+                    <div class="col-xs-12">
+                        <hr> </div>
+                </div>
+            </div>
             <div id="vc2020" class="row col-xs-12">
                 <div class="row text-center">
                     <div class="col-sm-7">
@@ -177,7 +223,7 @@
                     <div class="col-xs-12">
                         <hr> </div>
                 </div>
-            </div>            
+            </div>
             <div id="cgf2020star" class="row col-xs-12">
                 <div class="row text-center">
                     <div class="col-sm-7">
@@ -206,7 +252,7 @@
                         </h4> </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3"> <img src="papers/journals/eg2020star/teaser.png" alt="..." class="shadow img-rounded center-block" title="eg2020star teaser"> </div>
+                    <div class="col-sm-3"> <img src="papers/journals/eg2020star/teaser.png" alt="..." class="shadow img-rounded center-block" title="vc2020star teaser"> </div>
                     <div class="col-sm-9 text-justify">
                         <p>
                             In the past few years, advances in graphics hardware have fuelled an explosion of research and development in the field of interactive and real-time rendering in screen space. 
