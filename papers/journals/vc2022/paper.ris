@@ -1,0 +1,14 @@
+TY  - JOUR
+AU  - Tsopouridis, Grigoris
+AU  - Fudos, Ioannis
+AU  - Vasilakis, Andreas-Alexandros
+PY  - 2022
+DA  - 2022/07/01
+TI  - Deep hybrid order-independent transparency
+JO  - The Visual Computer
+AB  - Correctly compositing transparent fragments is an important and long-standing open problem in real-time computer graphics. Multifragment rendering is considered a key solution to providing high-quality order-independent transparency at interactive frame rates. To achieve that, practical implementations severely constrain the overall memory budget by adopting bounded fragment configurations such as the k-buffer. Relying on an iterative trial-and-error procedure, however, where the value of k is manually configured per case scenario, can inevitably result in bad memory utilization and view-dependent artifacts. To this end, we introduce a novel intelligent k-buffer approach that performs a non-uniform per pixel fragment allocation guided by a deep learning prediction mechanism. A hybrid scheme is further employed to facilitate the approximate blending of non-significant (remaining) fragments and thus contribute to a better overall final color estimation. An experimental evaluation substantiates that our method outperforms previous approaches when evaluating transparency in various high-depth-complexity scenes.
+SN  - 1432-2315
+UR  - https://doi.org/10.1007/s00371-022-02562-7
+DO  - 10.1007/s00371-022-02562-7
+ID  - Tsopouridis2022
+ER  - 
